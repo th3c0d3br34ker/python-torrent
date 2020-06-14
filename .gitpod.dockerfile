@@ -1,4 +1,4 @@
 FROM gitpod/workspace-full:latest
 
 USER root
-RUN sudo apt-get install -y firefox
+RUN sudo apt-get build-dep python-libtorrent
